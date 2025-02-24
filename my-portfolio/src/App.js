@@ -28,8 +28,7 @@ const projects = [
   },
   {
     title: "Amharic Named Entity Recognition (NER) for Ethiopian E-commerce Messages",
-    description: "This project focuses on building a robust Named Entity Recognition (NER) system tailored for Amharic language text from Ethiopian e-commerce channels. The process involves collecting data from Telegram, preprocessing the raw text, labeling entities like products, prices, and locations in CoNLL format, and fine-tuning multilingual models such as XLM-Roberta and BERT-based variants. The system is further enhanced by model comparison and interpretability tools (SHAP and LIME) to ensure transparency and trust in predictions. The outcome is a high-performing NER model capable of accurately extracting key entities from Amharic e-commerce messages, providing valuable insights for businesses and researchers in the Ethiopian market.",
-    link: "https://github.com/amsalugetasew/10_Academy_AI_Mastery_kifiya_Week_5",
+    description: "This project focuses on building a robust NER system tailored for Amharic language text of e-commerce channels. The process involves collecting data from Telegram, preprocessing and labeling entities in CoNLL format, and fine-tuning multilingual models such as XLM-Roberta and BERT-based variants. The system is further enhanced by model comparison and interpretability tools (SHAP and LIME) to ensure transparency and trust in predictions. The outcome is a high-performing NER model capable of accurately extracting key entities from Amharic e-commerce messages, providing valuable insights for businesses."
   },
   {
     title: "Brent Oil Price Analysis and Forecasting Using Machine Learning and Econometric Models",
@@ -126,7 +125,7 @@ const App = () => {
       {/* RESUME LINK SECTION */}
       <section id="resume" className="resume-section">
         <h1>
-          <a href="/Getasew_Abera-CV.pdf" target="_blank" rel="noopener noreferrer">
+          <a href="/Getasew_Amsalu_Abera-CV_Updated.pdf" target="_blank" rel="noopener noreferrer">
           <h2>My Resume</h2>
           </a>
         </h1>
