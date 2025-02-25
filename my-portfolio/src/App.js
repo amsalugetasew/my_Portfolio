@@ -2,7 +2,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import "./App.css"; // Import the CSS file
-import profilePic from "./assets/profile.jpg";
 
 const projects = [
   {
@@ -54,7 +53,7 @@ const App = () => {
       {/* HERO SECTION */}
       <section className="hero">
       {/* <img src="/profile.jpg" alt="Getasew Amsalu" className="profile-picture" /> */}
-      <img src={profilePic} alt="Getasew Amsalu" className="profile-picture" />
+      <img src={`${process.env.PUBLIC_URL}/profile.jpg`} alt="Getasew Amsalu" className="profile-picture" />
         <h2>Hello, I'm <span>Getasew Amsalu</span></h2>
         <a href="#projects">View Projects</a>
       </section>
