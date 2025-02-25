@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
-import "./styles.css"; // Import the CSS file
+import "./App.css"; // Import the CSS file
 
 const projects = [
   {
@@ -52,10 +52,8 @@ const App = () => {
 
       {/* HERO SECTION */}
       <section className="hero">
+      <img src="/profile.jpg" alt="Getasew Amsalu" className="profile-picture" />
         <h2>Hello, I'm <span>Getasew Amsalu</span></h2>
-        <p className="intro-text">
-          I am a passionate <span className="highlight">Data Scientist and Analyst</span> with expertise in <span className="highlight">AI-based Machine Learning</span> and <span className="highlight">Deep Learning</span> project development.
-        </p>
         <a href="#projects">View Projects</a>
       </section>
 
@@ -67,7 +65,11 @@ const App = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          <h2 className="section-title">About Me</h2>
+          <h2 className="section-title">About Me
+            <p className="intro-text">
+                I am a passionate <span className="highlight">Data Scientist and Analyst</span> with expertise in <span className="highlight">AI-based Machine Learning</span> and <span className="highlight">Deep Learning</span> project development.
+            </p>
+          </h2>
           {/* Education */}
           <div className="about-box">
             <h3 className="about-heading">🎓 Education</h3>
