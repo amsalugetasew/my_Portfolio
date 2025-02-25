@@ -127,11 +127,9 @@ const App = () => {
 
       {/* RESUME LINK SECTION */}
       <section id="resume" className="resume-section">
-        <h1>
           <a href="/Getasew_Amsalu_Abera-CV_Updated.pdf" target="_blank" rel="noopener noreferrer">
           <h2>My Resume</h2>
           </a>
-        </h1>
       </section>
 
       {/* CONTACT SECTION */}
